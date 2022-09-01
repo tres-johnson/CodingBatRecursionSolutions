@@ -14,7 +14,7 @@ public class CodingBatRecursion_1_ParenBit {
 
     private static String parenBit(String str) {
         //base case
-        //if str doesn't contain opening or closing parens, return an emtpy string
+        //if str is less than 1 char in length, return an emtpy string
         if (str.length() < 1) {
             return "";
         }
