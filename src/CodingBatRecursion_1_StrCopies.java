@@ -1,5 +1,6 @@
 public class CodingBatRecursion_1_StrCopies {
 
+    /** <a href="https://codingbat.com/prob/p118182">...</a> **/
     //Given a string and a non-empty substring sub, compute recursively if at least n copies of sub appear in the
     // string somewhere, possibly with overlapping. N will be non-negative.
     //

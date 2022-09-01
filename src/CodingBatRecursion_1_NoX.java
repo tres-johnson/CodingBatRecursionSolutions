@@ -1,5 +1,6 @@
 public class CodingBatRecursion_1_NoX {
 
+    /** <a href="https://codingbat.com/prob/p118230">...</a> **/
     //Given a string, compute recursively a new string where all the 'x' chars have been removed.
     //
     //noX("xaxb") → "ab"

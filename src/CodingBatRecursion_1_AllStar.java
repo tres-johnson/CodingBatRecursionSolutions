@@ -1,5 +1,6 @@
 public class CodingBatRecursion_1_AllStar {
 
+    /** <a href="https://codingbat.com/prob/p183394">...</a> **/
     //Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*".
     //
     //allStar("hello") → "h*e*l*l*o"

@@ -1,5 +1,6 @@
 public class CodingBatRecursion_1_EndX {
 
+    /** <a href="https://codingbat.com/prob/p105722">...</a> **/
     //Given a string, compute recursively a new string where all the lowercase 'x' chars have been moved to the end of the string.
     //
     //endX("xxre") → "rexx"
@@ -20,7 +21,7 @@ public class CodingBatRecursion_1_EndX {
 
         //sub-problem
         //if str startsWith and 'x'...
-        String result = "";
+        String result;
         if (str.startsWith("x")) {
             //...call the method recursively and only give it the string from position 1 on because we're moving the 'x'
             //we found to the end of the string.

@@ -1,5 +1,6 @@
 public class CodingBatRecursion_1_CountHi {
 
+    /** <a href="https://codingbat.com/prob/p184029">...</a> **/
     //Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
     //
     //countHi("xxhixx") → 1
