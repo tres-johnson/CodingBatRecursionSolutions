@@ -26,6 +26,7 @@ public class CodingBatRecursion_1_StrDist {
         if (firstIndex > -1 && lastIndex > -1) {
             //... count the chars between the first index and last index and tack the sub length onto the end because
             //lastIndex only gives us the last BEGINNING index of the second sub instance
+            //this also covers the edge case of the sub overlapping in the given str.
             return countChars(str.substring(firstIndex, lastIndex)) + sub.length();
         }
         //if the sub is only found once, immediately return the length of the sub value
